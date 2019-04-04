@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registrering komplet - Grundfos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Opret en ny brugerkonto hos Grundfos. Med en MyGrundfos konto kan du gemme, dele og oprette projekter, produkter og mere meget.">
+    <meta name="author" content="Rasmus Cederdorff">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="fonts/GrundfosTheSansV2OT-5R.otf" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <script>
+        setTimeout(function() {
+                window.location = "https://daugberg.com/p/grundfos/dash.html";
+            }, 5000) //wait three seconds before continuing.
+
+    </script>
+    <script type="text/javascript">
+        var timeleft = 5;
+        var downloadTimer = setInterval(function() {
+            timeleft--;
+            document.getElementById("countdown").textContent = timeleft;
+            if (timeleft <= 0)
+                clearInterval(downloadTimer);
+        }, 1000);
+
+    </script>
+    <style>
+        h1,
+        p {
+            text-align: center;
+            color: #333;
+            font-size: 1em;
+        }
+        
+        h1 {
+            font-size: 3em;
+            color: #4AA22C;
+            margin-top: 3em;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="./">
+            <img src="img/headerloggedin.png" alt=""></a>
+    </header>
+    <h1>Din konto er komplet!</h1>
+    <p>Du vil blive sendt videre til din nye konto om <span id="countdown">5</span> sekunder</p>
+</body>
+
+</html>
